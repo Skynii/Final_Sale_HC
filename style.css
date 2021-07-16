@@ -1,0 +1,205 @@
+/*font-family: 'Bad Script', cursive;
+font-family: 'Squada One', cursive;*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size:14px;
+}
+
+body {
+
+  background-color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  height: 90%;
+
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3%;
+  background-color: #000;
+
+}
+
+.image {
+  width:60%;
+  height: 100%;
+}
+
+.image img {
+  width: 40rem;
+  height: 80vh;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.wrap {
+
+  width: 40%;
+  margin: 0 auto;
+
+
+}
+
+.topo {
+ margin-left:-50px;
+  align-items: stretch;
+  justify-content: center;
+  display: flexbox;
+  margin-left: 20%;
+  height: 140px;
+  box-sizing: border-box;
+}
+
+.topo img {
+  height: 8rem;
+  margin-left: -20px;
+}
+
+#final img {
+  position: relative;
+  margin-left: -150px;
+  margin-top: 5px;
+  width:30rem;
+ 
+}
+
+#sale {
+  position: relative; 
+  width: 361px;
+  height:142px;
+  left:190px;
+  top: -80px;
+  margin-top: 0;
+  font-size: 190px;
+  line-height: 374px;
+  display: flex;
+  align-items: center;
+  overflow: visible;
+}
+
+.discount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:-10px;
+  
+  
+}
+#sixty {
+  position: relative;
+  width: 268px;
+  height: 240px;
+  font-family: Squada One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #ff0000;
+}
+.discounts1 {
+  
+  display: flex;
+  flex-direction: column;
+  margin-left: -40px;
+}
+
+#percents {
+  width: 160px;
+  height: 154px;
+  
+  margin-top: 10px;
+  font-size: 70px;
+  font-family: Spartan;
+
+  font-weight: 300;
+
+  color: #ffffff;
+}
+#off {
+  position: absolute;
+  width: 108px;
+  height: 77px;
+  
+  top: 300px;
+
+  font-family: Spartan;
+
+  font-weight: 300;
+  font-size: 72px;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+
+.recive{
+    
+width: 450px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+align-items: center;
+display: flex;
+align-items: flex-start;
+text-align: center;
+justify-content: center;
+
+color: #FFFFFF;
+position: relative;
+margin: auto;
+margin-top: -30px;
+}
+
+#email{
+height:30px;
+width:300px;
+margin:15px auto;
+background: #C4C4C4;
+display: flex;
+border-radius:5px;
+text-align: center;
+
+}
+
+.btn-receber{
+width: 140px;
+height: 40px;
+display: flex;
+background: #FF0000;
+margin: auto;
+margin-top: 0px;
+text-align: center;
+font-size: 15px;
+color: #FFFFFF;
+border-radius:5px;
+}
+
+.btn-receber:hover{
+    background: #FFFFFF;
+    color: #FF0000;
+}
+strong{
+    color: #FF0000;
+}
