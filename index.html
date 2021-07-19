@@ -1,62 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style1.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Spartan:wght@300&family=Squada+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Spartan:wght@300&family=Squada+One&display=swap"
+      rel="stylesheet"
+    />
     <title>Final Sale</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        
-        <div class="image">
-            <img src="./src/sale.png" alt="Banner Lateral Sale">
-        </div>
-        
-        <div class="wrap">
-        
-            <div class="topo">
-                <h2 id="final">
-                    <img src="/src/final.svg" alt="Titulo Final">
-                </h2>
-                <h2 id="sale">
-                    <img src="/src/Sale.svg" alt="Titulo">
-                </h2>
-            </div>
+      <div class="left">
+        <img src="./src/sale.png" alt="Banner Lateral Sale" />
+      </div>
 
-            <div class="discount">
-                <div class="discounts">
-                    <h3 id="sixty">60</h3>
-                </div>
-                <div>
-                    <div class="discounts1">
+    <div class="right">
+        <div class="topo">
+          <div class="final">
+           <h3>Final</h3>
+          </div>
+          <div class="sale">
+            <h3>Sale</h3>
+          </div>
+        </div>
+
+        <div class="discounts">
+          <div>
+            <h3 id="sixty">60</h3>
+          </div>
+
+          
+                <div class="discounts1">
+                    <div>
                         <h3 id="percents">%</h3>
                     </div>
-                    <div class="discounts1">
-                        <h3 id ="off">Off</h3>
+                    <div>
+                        <h3 id="off">Off</h3>
                     </div>
                 </div>
-            </div>
-
-            <div class="recive">
-                <p>
-                    Cadastre-se para receber as primeiras ofertas de nossa <strong>promoção</strong> e um cupom de <strong>frete grátis!</strong>
-                </p>
-            </div>
-
-            <div id="content">
-                <div class="form" id="input">
-                    <input type="text" id="email" placeholder="Digite seu e-mail" maxlength="60" size='65'>
-                    <input class="btn-receber" type="submit" value="Receber Ofertas!" onclick="enviar()" >
-                </div>
-            </div>
-
+            
         </div>
+
+        <div class="recive">
+          <p>
+            Cadastre-se para receber as primeiras ofertas de nossa
+            <strong>promoção</strong> e um cupom de
+            <strong>frete grátis!</strong>
+          </p>
+        </div>
+
+        <div id="content">
+          <div class="form" id="input">
+            <input
+              type="text"
+              id="email"
+              placeholder="Digite seu e-mail"
+              maxlength="60"
+              size="65"
+            />
+
+            
+            <button
+              class="btn-receber"
+              type="submit"
+              
+              onclick="enviar()"
+            >Receber Ofertas!</button>
+          </div>
+        </div>
+      
     </div>
-<script type="text/javascript" src="script.js"></script>
-</body>
+  </body>
 </html>
